@@ -1,7 +1,9 @@
 #ifndef SANTACLAUS_LIST_H
 #define SANTACLAUS_LIST_H
 
-typedef struct _node Node;
+typedef struct _node{
+
+} Node;
 
 typedef struct _list List;
 
