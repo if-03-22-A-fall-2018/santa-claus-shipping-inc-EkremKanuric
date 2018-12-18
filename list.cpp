@@ -1,8 +1,17 @@
 #include <stdlib.h>
 #include "list.h"
 
+struct _node {
+  Node* next;
+  void* data;
+};
+struct _list{
+  Node* _head;
+};
+
 List* list_create(){
-  return 0;
+  List* l = (List*)malloc(sizeof(struct _node));
+  return l;
 }
 void list_delete(List *list){
 
