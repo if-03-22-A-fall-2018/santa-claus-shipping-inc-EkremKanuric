@@ -10,8 +10,7 @@ struct _list{
 };
 
 List* list_create(){
-  List* l = (List*)malloc(sizeof(struct _node));
-  return l;
+  return (List*)malloc(sizeof(struct _node)); 
 }
 void list_delete(List *list){
   free(list);
