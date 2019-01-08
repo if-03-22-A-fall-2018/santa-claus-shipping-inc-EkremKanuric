@@ -1,7 +1,7 @@
-
 #ifndef SANTACLAUS_CHILDDATAMGMT_H
 #define SANTACLAUS_CHILDDATAMGMT_H
 
+#include <stdlib.h>
 #include "list.h"
 
 typedef struct _childData {
@@ -34,4 +34,4 @@ Node* cdm_get_sorted_data(ChildDataMgmt *cdm);
  */
 void cdm_delete(ChildDataMgmt *cdm);
 
-#endif //SANTACLAUS_CHILDDATAMGMT_H
+#endif

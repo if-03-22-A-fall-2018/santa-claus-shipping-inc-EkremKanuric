@@ -1,7 +1,7 @@
 #ifndef SANTACLAUS_LIST_H
 #define SANTACLAUS_LIST_H
 
-typedef struct _node  Node;
+typedef struct _node Node;
 
 typedef struct _list List;
 
@@ -43,4 +43,6 @@ Node* list_get_next(Node *node);
  */
 void* list_get_data(Node *node);
 
-#endif //SANTACLAUS_LIST_H
+int list_get_length(List* list);
+
+#endif 
